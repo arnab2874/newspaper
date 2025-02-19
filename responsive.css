@@ -1,0 +1,98 @@
+@media (max-width: 576px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+.hamburger {
+    display: flex;
+}
+.header-promo a img { 
+    width: 100%;
+}
+    /*
+  .rspns {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .england img {
+    text-align: left;
+    height: 230px;
+    width: 390px;
+  }
+  .england h1,
+  p {
+    width: 78%;
+  }
+  .container {
+    display: block;
+  }
+  .last img {
+    height: 37px;
+    width: 380px;
+  }
+  .messi img {
+    width: 380px;
+    height: 222px;
+  }
+  .messi h2 {
+    width: 409px;
+    font-size: 24px;
+  }
+  .messi p {
+    width: fit-content;
+    font-size: 13px;
+  }
+  .intu img {
+    width: 380px;
+    height: 180px;
+  }
+  .intu p {
+    width: 103%;
+  }
+  .fild img {
+    text-align: left;
+    width: 380px;
+    height: 180px;
+  }
+  .fild p {
+    font-size: 17px;
+    width: 110%;
+}
+.left img {
+    height: 333px;
+    width: 375px;
+}
+.player img {
+    height: 222px;
+    width: 380px;
+}
+.player p {
+    font-size: 19px;
+    width: 108%;
+}
+.small-list {
+    font-size: 18px;
+    width: 110%;
+}
+.bangladesh img {
+    width: 380px;
+    height: 230px;
+}
+.carton img {
+    width: 380px;
+}
+.out image {
+    text-align: left;
+} */
+}

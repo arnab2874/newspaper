@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "manven pro", sans-serif;
+}
+.header-middle{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+.menu-area {
+    justify-content: start !important;
+}
+.menu-area li {
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    list-style-type: none;
+    color: rgb(238, 230, 230);
+}
+.menu-area li a {
+    color: white;
+    text-decoration: none;
+}
+.menu-area li :hover {
+    color: white;
+}
+.icon{
+    margin-left: 12%;
+    font-size: 20px;
+}
+.sidebar-link a {
+    padding: 11px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.sidebar-link :hover {
+    cursor: pointer;
+    background-color: #00a8ff;
+    color: white;
+}
+.breadcrumb-section{
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.breadcrumb-section a{
+    text-decoration: none;
+    color: black;
+}
+.arnob{
+    text-align: left;  
+}
+.arnob h2{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.arnob h2 a{
+    color: black;
+    text-decoration: none;
+}
+.arnob h2  :hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #00a8ff;
+}
+.arnob p{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.title {
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 7px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.small-list{
+    border-bottom: 2px solid black;
+    font-family: sans-serif;
+}
+
+.doc4{
+    margin-top: 10px;
+    margin-bottom: 0px;;
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.doc4 a{
+    color: black;
+    text-decoration: none;
+}
+.doc4 p :hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #00a8ff;
+}
+.right img{
+    margin-bottom: 30px;
+}
+.section-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.news p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.news a{
+    color: black;
+    text-decoration: none;
+}
+.news p :hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #00a8ff;
+}
+.toggle{
+    text-align: center;
+    gap: 0px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.btn-1{ 
+    font-size: 16px;
+  font-weight: 500;
+  transition: all ease 0.5s;
+    background-color: #00a8ff;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.ultra {
+    text-align: left;
+  }
+  .ultra a {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  .down {
+    border-top: 3px solid black;
+  }
+  .footer-logo {
+    margin-top: 30px;
+  }
+  .about {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .dropdown-lang {
+    text-align: left;
+  }
+  .language-btn {
+    text-decoration: none;
+    color: black;
+  }
+  .footer-widget {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .footer-widget p {
+    text-align: left;
+    width: 414px;
+    font-size: 14px;
+  }
+  .footer-link {
+    padding-left: 0;
+    text-align: left;
+  }
+  .footer-link li {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .footer-link a {
+    text-decoration: none;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .copyright-wrapper {
+    border-top: 1px solid #e5e5e5;
+    padding: 15px 0;
+  }
+  .copyright {
+    justify-content:space-between;
+    display: flex;
+  }
+  .footer-social li a{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    color: black;
+    font-size: 12px;
+    transition: all 0.3s;
+  }
+  .footer-social{
+  display: flex;
+  gap: 5px;
+  }
+  .footer-social :hover{
+  background: #00a8ff;
+  color: white;
+  border-radius: 50%;
+  }
